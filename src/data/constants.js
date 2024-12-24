@@ -316,7 +316,7 @@ export const education = [
     school: "EMSI",
     date: "Oct 2023 ",
     desc: "I'm currently a software engineering student at EMSI, specializing in Software Engineering and Intelligent Systems. My studies focus on advanced software development techniques, intelligent systems design, and practical applications of AI in software engineering.",
-    degree: "Software Engineering and Intelligent Systems",
+    degree: "Software Engineering and Networking",
   },
   {
     id: 1,
