@@ -321,7 +321,7 @@ export const education = [
   {
     id: 1,
     img: "fes.png",
-    school: "Faculty of Science and Technology in Fes",
+    school: "Faculty of Science Ben M'sik",
     date: "Oct 2021 -  June 2023",
     desc: "I completed my two-year preparatory program in university studies focusing on mathematics, physics, and basic computer science",
     degree: "DEUST",
