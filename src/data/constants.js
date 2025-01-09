@@ -246,12 +246,12 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    image: "onetechma_logo.jpeg",
-    role: "Fullstack Developer",
-    company: "One Technologies",
-    date: "June 2024 - Sept 2024",
-    desc: "Working on web applications for managing commercial sales, stock purchases, clients, and suppliers with dynamic parameters.",
-    skills: ["Laravel", "Tailwind CSS", "CSS", "JavaScript", "Testing", "OCR"],
+    image: "orange.png",
+    role: "automation tester",
+    company: "Orange Digital Center",
+    date: "Juillet 2024",
+    desc: "Implementation of automated tests for several applications.",
+    skills: ["Selenium", "Robot Framework"],
   },
 ]
 
