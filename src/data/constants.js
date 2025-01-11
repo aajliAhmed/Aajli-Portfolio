@@ -246,6 +246,15 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    image: "Sakane-image.jpg",
+    role: "Full Stack engineer",
+    company: "Sakane Advisor",
+    date: "Août 2024 - Septembre 2024",
+    desc: "Development of a web solution for the management of real estate.",
+    skills: ["PHP (Symfony)", "HTML", "CSS","MySQL","Git"],
+  },
+  {
+    id: 1,
     image: "orange.png",
     role: "automation tester",
     company: "Orange Digital Center",
@@ -253,6 +262,7 @@ export const experiences = [
     desc: "Implementation of automated tests for several applications.",
     skills: ["Selenium", "Robot Framework"],
   },
+  
 ]
 
 export const certificates = [
