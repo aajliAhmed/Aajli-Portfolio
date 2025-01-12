@@ -285,11 +285,11 @@ export const certificates = [
   },
   {
     id: 2,
-    title: "Oracle Cloud Infrastructure 2023 AI Certified ",
+    title: "Oracle Certified Professional: Java SE 17 Developer ",
     issuer: "Oracle",
-    date: "June 2024",
-    description: "Oracle AI services ,Oracle Generative AI",
-    img: "Screenshot from 2024-10-31 23-30-53.png",
+    date: "March 2024",
+    description: "Oracle Certified Professional: Java SE 17 Developer has demonstrated proficiency in Java (Standard Edition).",
+    img: "Òracle-certification-aajli-ahmed_page-0001.jpg",
   },
   {
     id: 3,
