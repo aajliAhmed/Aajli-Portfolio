@@ -277,11 +277,11 @@ export const experiences = [
 export const certificates = [
   {
     id: 1,
-    title: "Developing Front-End Apps with React",
-    issuer: "Coursera",
+    title: "ALX AiCE - AI Career Essentials",
+    issuer: "ALX Morrocco",
     date: "April 2024",
-    description: "Completed a comprehensive course on React.js fundamentals.",
-    img: "1715083442192.jpeg",
+    description: "Understanding of various AI concepts like LLM, GenAI, and GPT.",
+    img: "40-alx-aice-ai-career-essentials-certificate-ahmed-aajli.png",
   },
   {
     id: 2,
@@ -293,11 +293,11 @@ export const certificates = [
   },
   {
     id: 3,
-    title: "Postman API Fundamentals Student Expert",
-    issuer: "freeCodeCamp",
-    date: "December 2024",
-    description: "How to use Postman to work with APIs",
-    img: "Screenshot from 2024-10-31 23-33-39.png",
+    title: "Honoris 21st Century Soft Skills Certificate",
+    issuer: "Honoris Online Academy",
+    date: "Septembre 2024",
+    description: "Intelligence Comportementale, Esprit Critique, Créativité and Design Thinking, Communication, Collaboration, et Entrepreneuriat.",
+    img: "certificate_2025080192432_page-0001.jpg",
   },
   {
     id: 4,
