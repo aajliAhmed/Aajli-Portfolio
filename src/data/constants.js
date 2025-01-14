@@ -301,11 +301,11 @@ export const certificates = [
   },
   {
     id: 4,
-    title: "AWS Certified Cloud Practitioner",
-    issuer: "Amazon Web Services (AWS)",
-    date: "2024",
-    description: "Foundational understanding of AWS Cloud concepts, services, security, architecture, pricing, and support",
-    img: "aws-certified-cloud-practitioner.png",
+    title: "Introduction to Java and Object-Oriented Programming",
+    issuer: "University of Pennsylvania",
+    date: "November 2023",
+    description: "Foundational understanding of Java programming concepts and object-oriented design principles.",
+    img: "Programming-java-Penn.jpg",
   },
 ];
 
