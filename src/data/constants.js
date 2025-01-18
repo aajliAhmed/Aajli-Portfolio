@@ -310,14 +310,13 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Management of a supermarket",
-    date: "feb 2024 - Jul 2024",
+    title: "AI Hackathon 2025 - Fuse Intelligence & Innovation",
+    date: "Février 2025",
     description:
-      "Comprehensive system for managing supermarket operations including inventory, sales, and customer data.",
+      "Remporter le AI Hackathon 2025 - Fuse Intelligence & Innovation a été une aventure incroyable ! 🚀 En équipe, nous avons conçu une solution d’intelligence artificielle innovante, Ce défi nous a permis d’explorer des techniques avancées en machine learning, NLP, computer vision et d’affiner notre approche en ingénierie IA.🏆",
     image: "/Screenshot from 2024-10-16 13-08-43.png",
     tags: ["HTML", "CSS", "BOOTSTRAP", "JS", "MYSQL", "UML"],
     category: "web app",
-    github: "https://github.com/hodaifa-ech/Uml",
   },
   {
     id: 11,

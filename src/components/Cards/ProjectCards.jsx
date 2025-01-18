@@ -28,7 +28,7 @@ const Card = styled.div`
     flex-direction: column;
     gap: 14px;
     transition: all 0.5s ease-in-out;
-    border: ${({ isSpecial }) => isSpecial ? '2px solid #FFD700' : 'none'};
+    border: ${({ isFirst }) => isFirst ? '2px solid #FFD700' : 'none'};
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
@@ -123,13 +123,11 @@ const Avatar = styled.img`
     border: 3px solid ${({ theme }) => theme.card};
 `
 
-const ProjectCards = ({project,setOpenModal}) => {
-
-    const isSpecialProject = project.title === "Management of a supermarket";
+const ProjectCards = ({project, setOpenModal, isFirst}) => {
     return (
         <Card 
             onClick={() => setOpenModal({state: true, project: project})}
-            isSpecial={isSpecialProject}
+            isFirst={isFirst}
         >
             <Image src={project.image}/>
           
