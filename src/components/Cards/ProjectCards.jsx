@@ -1,6 +1,29 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const Medal = styled.div`
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 10;
+  border: 2px solid #FFF;
+  
+  &::before {
+    content: "🏆";
+    font-size: 18px;
+  }
+`
 
 const Button = styled.button`
     display: none;
@@ -22,13 +45,14 @@ const Card = styled.div`
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
-    overflow: hidden;
+    overflow: visible;
     padding: 26px 20px;
     display: flex;
     flex-direction: column;
     gap: 14px;
     transition: all 0.5s ease-in-out;
     border: ${({ isFirst }) => isFirst ? '2px solid #FFD700' : 'none'};
+    position: relative;
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
@@ -129,6 +153,7 @@ const ProjectCards = ({project, setOpenModal, isFirst}) => {
             onClick={() => setOpenModal({state: true, project: project})}
             isFirst={isFirst}
         >
+            {isFirst && <Medal />}
             <Image src={project.image}/>
           
             <Tags>

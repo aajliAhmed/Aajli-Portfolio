@@ -217,6 +217,15 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    image: "Digitalia.jpeg",
+    role: "Full Stack engineer",
+    company: "Digitalia Solutions",
+    date: "Février 2025 - Août 2025",
+    desc: "Development of a web application for Field force management.",
+    skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git"],
+  },
+  {
+    id: 1,
     image: "Magnisfy-image.png",
     role: "Full Stack engineer",
     company: "Magnisfy Africa",
@@ -225,7 +234,7 @@ export const experiences = [
     skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git"],
   },
   {
-    id: 1,
+    id: 2,
     image: "Sakane-image.jpg",
     role: "Full Stack engineer",
     company: "Sakane Advisor",
@@ -234,7 +243,7 @@ export const experiences = [
     skills: ["PHP (Symfony)", "HTML", "CSS","MySQL","Git"],
   },
   {
-    id: 2,
+    id: 3,
     image: "orange.png",
     role: "automation tester",
     company: "Orange Digital Center",
@@ -327,7 +336,7 @@ export const projects = [
     image: "/tawfir.png?height=400&width=600",
     tags: ["Next.js", "Spring Boot", "Docker", "Tailwind CSS", "MySQL"],
     category: "web app",
-    github: "https://github.com/hodaifa-ech/tawfir-front",
+    github: "",
   },
   {
     id: 12,
@@ -338,7 +347,7 @@ export const projects = [
     image: "/trading.png?height=400&width=600",
     tags: ["Deep Learning", "Microservices", "DevOps", "Docker", "Kubernetes", "AWS", "Terraform"],
     category: "machine learning",
-    github: "https://github.com/Fintech-LSI",
+    github: "",
   },
   {
     id: 13,
@@ -349,7 +358,7 @@ export const projects = [
     image: "/devops.drawio.png?height=400&width=600",
     tags: ["Jenkins", "GitHub", "EKS", "ECR", "Docker", "Ansible", "Terraform"],
     category: "devops",
-    github: "https://github.com/hodaifa-ech/cicd_Merciboi",
+    github: "",
   },
   {
     id: 14,
@@ -360,7 +369,7 @@ export const projects = [
     image: "/1.png?height=400&width=600",
     tags: ["Flask", "Jenkins", "ECR", "EKS", "GitHub", "Terraform", "Ansible"],
     category: "devops",
-    github: "https://github.com/hodaifa-ech/Flask-microservice",
+    github: "",
   },
   {
     id: 0,
@@ -371,7 +380,7 @@ export const projects = [
     image: "Screenshot from 2024-10-17 12-56-04.png",
     tags: ["JavaScript", "Laravel", "OCR", "Tailwind CSS", "MySQL"],
     category: "web app",
-    github: "https://github.com/hodaifa-ech/Gestion-Commerciale",
+    github: "",
   },
   {
     id: 1,
@@ -382,7 +391,7 @@ export const projects = [
     image: "44f7a9b1-41d4-4f3c-a1cd-1e812590a4f9.jpeg",
     tags: ["Unity", "C#", "Pathfinding"],
     category: "Game",
-    github: "https://github.com/hodaifa-ech/Unity-Project-Procedural-Map-Generation-PathFinding",
+    github: "",
   },
   {
     id: 2,
@@ -393,7 +402,7 @@ export const projects = [
     image: "Screenshot from 2024-10-17 13-00-01.png",
     tags: ["Angular", "Spring Boot", "Tailwind CSS", "Docker", "PostgreSQL"],
     category: "web app",
-    github: "https://github.com/hodaifa-ech/ecommerce-spring_boot",
+    github: "",
   },
   {
     id: 3,
@@ -403,7 +412,7 @@ export const projects = [
     image: "4eb47daa-6011-4c11-8761-54dd9eb6495c.jpeg",
     tags: ["Tailwind CSS", "CSS", "PHP", "MySQL"],
     category: "web app",
-    github: "https://github.com/hodaifa-ech/Club_Gaming_FSTT_Website",
+    github: "",
   },
   {
     id: 10,
@@ -414,7 +423,7 @@ export const projects = [
     image: "Screenshot from 2024-10-17 13-06-05.png",
     tags: ["React.js", "JavaScript", "Axios", "Laravel", "MySQL", "Livewire"],
     category: "web app",
-    github: "https://github.com/hodaifa-ech/Gestion-Commerciale",
+    github: "",
   },
   {
     id: 4,
@@ -425,7 +434,7 @@ export const projects = [
     image: "Screenshot from 2024-10-17 13-17-09.png",
     tags: ["JavaScript", "CSS", "MySQL", "Symfony", "Bootstrap"],
     category: "web app",
-    github: "https://github.com/hodaifa-ech/ecommerce-website",
+    github: "",
   },
   {
     id: 5,
@@ -436,7 +445,7 @@ export const projects = [
     image: "Pasted image.png",
     tags: ["Angular", "Spring Boot", "Tailwind CSS", "MySQL"],
     category: "web app",
-    github: "https://github.com/hodaifa-ech/fitness_tracker",
+    github: "",
   },
   {
     id: 15,
@@ -447,7 +456,7 @@ export const projects = [
     image: "application-access.png",
     tags: ["Kubeflow", "ML", "Web Scraping", "LLMs", "Docker", "CI/CD", "BI", "Python", "Kubernetes", "A2A Agents"],
     category: "machine learning",
-    github: "https://github.com/hodaifa-ech/smart-ecommerce-ai-pipeline",
+    github: "",
   },
 ]
 
