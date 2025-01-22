@@ -323,7 +323,7 @@ export const projects = [
     date: "Février 2025",
     description:
       "Remporter le AI Hackathon 2025 - Fuse Intelligence & Innovation a été une aventure incroyable ! 🚀 En équipe, nous avons conçu une solution d’intelligence artificielle innovante, Ce défi nous a permis d’explorer des techniques avancées en machine learning, NLP, computer vision et d’affiner notre approche en ingénierie IA.🏆",
-    image: "/Screenshot from 2024-10-16 13-08-43.png",
+    image: "/Hackathon-AI-me.jpg",
     tags: ["HTML", "CSS", "BOOTSTRAP", "JS", "MYSQL", "UML"],
     category: "web app",
   },
