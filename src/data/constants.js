@@ -323,17 +323,17 @@ export const projects = [
     date: "Février 2025",
     description:
       "Remporter le AI Hackathon 2025 - Fuse Intelligence & Innovation a été une aventure incroyable ! 🚀 En équipe, nous avons conçu une solution d’intelligence artificielle innovante, Ce défi nous a permis d’explorer des techniques avancées en machine learning, NLP, computer vision et d’affiner notre approche en ingénierie IA.🏆",
-    image: "/Hackathon-AI-me.jpg",
-    tags: ["HTML", "CSS", "BOOTSTRAP", "JS", "MYSQL", "UML"],
+    image: "/Hackathon-AI-me.jpg?height=400&width=600",
+    tags: ["YOLOv8", "numpy", "OpenCV", "Python", "tensorflow"],
     category: "web app",
   },
   {
     id: 11,
-    title: "Student Money Management App",
-    date: "Jan 2024 - Apr 2024",
+    title: "Stock management application",
+    date: "Fev 2024 - Sept 2024",
     description:
       "Developed a comprehensive money management application for students to track expenses, create monthly budgets by category, set financial goals with statistics, send money to friends, and earn points through gamification features.",
-    image: "/tawfir.png?height=400&width=600",
+    image: "/magnisfy-projet.png?height=400&width=600",
     tags: ["Next.js", "Spring Boot", "Docker", "Tailwind CSS", "MySQL"],
     category: "web app",
     github: "",

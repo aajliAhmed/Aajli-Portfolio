@@ -148,13 +148,21 @@ const Avatar = styled.img`
 `
 
 const ProjectCards = ({project, setOpenModal, isFirst}) => {
+    const isHackathonProject = project.title === "AI Hackathon 2025 - Fuse Intelligence & Innovation";
+    
     return (
         <Card 
             onClick={() => setOpenModal({state: true, project: project})}
             isFirst={isFirst}
         >
             {isFirst && <Medal />}
-            <Image src={project.image}/>
+            <Image 
+                src={isHackathonProject ? "/Hackathon-AI-me.jpg" : project.image}
+                style={isHackathonProject ? { 
+                    objectFit: 'contain',
+                    backgroundColor: '#000000'
+                } : {}}
+            />
           
             <Tags>
                 {project.tags?.map((tag, index) => (
