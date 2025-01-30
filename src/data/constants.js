@@ -351,13 +351,13 @@ export const projects = [
   },
   {
     id: 13,
-    title: "Merciboi App Deployment Automation",
-    date: "Feb 2023 - Apr 2023",
+    title: "Development of a Field Force web application",
+    date: "Feb 2025 - Aout 2025",
     description:
-      "Automated the deployment process for the Merciboi application using Jenkins CI/CD pipeline integrated with GitHub. Implemented container orchestration with EKS and ECR, used Docker for containerization, and managed clusters with Ansible. Infrastructure was provisioned using Terraform for Jenkins instances and EKS.",
-    image: "/devops.drawio.png?height=400&width=600",
-    tags: ["Jenkins", "GitHub", "EKS", "ECR", "Docker", "Ansible", "Terraform"],
-    category: "devops",
+      "Developed a Field Force web application to digitize market studies and optimize in-store product tracking",
+    image: "/Field-Force.png?height=400&width=600",
+    tags: ["JAVA 17", "GitHub", "Angular", "HTML", "CSS", "SCRUM", "MySQL"],
+    category: "web app",
     github: "",
   },
   {
