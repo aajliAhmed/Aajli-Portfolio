@@ -362,13 +362,13 @@ export const projects = [
   },
   {
     id: 14,
-    title: "Microservice Flask App Deployment",
-    date: "Nov 2022 - Jan 2023",
+    title: "Development of a web solution for the management of real estate",
+    date: "Aout 2023 - Sept 2023",
     description:
-      "Automated the deployment of a microservice application built with Flask using Jenkins for CI/CD, ECR for container registry, EKS for Kubernetes orchestration, and GitHub for version control. Used Terraform for infrastructure as code and Ansible for configuration management.",
+      "Participated in the development of a web-based real estate management solution to streamline the administration of properties, tenants",
     image: "/1.png?height=400&width=600",
-    tags: ["Flask", "Jenkins", "ECR", "EKS", "GitHub", "Terraform", "Ansible"],
-    category: "devops",
+    tags: ["PHP", "HTML", "CSS", "JAVA SCRIPT", "GitHub", "MySQL"],
+    category: "web app",
     github: "",
   },
   {
