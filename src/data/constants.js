@@ -2,7 +2,7 @@ export const Bio = {
   name: "AAJLI Ahmed",
   roles: ["Software Engineer", "Full Stack Developer", "Programmer"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am an eager and adaptable person, always open to new challenges. With a strong will to learn I aim to deliver solid results. With a positive spirit and a mindset focused on growth, I am ready to bring value and achieve meaningful goals.",
   github: "https://github.com/aajliAhmed",
   resume: "https://drive.google.com/file/d/1vYPgjFP3qm30xtzZ1P9DgWSZO8uEdDlw/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aajli-ahmed/",
@@ -325,7 +325,7 @@ export const projects = [
       "Winning the AI Hackathon 2025 - Fuse Intelligence & Innovation was an incredible adventure! 🚀 In a team, we have designed an innovative artificial intelligence solution, this challenge allowed us to explore advanced machine learning techniques, NLP, Computer Vision and refine our IA engineering approach.",
     image: "/Hackathon-AI-me.jpg?height=400&width=600",
     tags: ["YOLOv8", "numpy", "OpenCV", "Python", "tensorflow"],
-    category: "web app",
+    category: "AI Engineering",
   },
   {
     id: 11,
