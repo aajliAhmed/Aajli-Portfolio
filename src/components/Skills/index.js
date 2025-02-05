@@ -64,6 +64,16 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: rgba(23, 92, 230, 0.25) 0px 12px 40px;
+    border: 0.1px solid #854CE6;
+    background: ${({ theme }) => theme.card + 'dd'};
+  }
+  
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -72,8 +82,6 @@ const Skill = styled.div`
     max-width: 330px;
     padding: 10px 36px;
   }
-
-
 `
 
 const SkillTitle = styled.h2`
@@ -103,6 +111,17 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  
+  &:hover {
+    transform: translateY(-2px) scale(1.05);
+    background: ${({ theme }) => theme.primary + 20};
+    border: 1px solid ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.primary};
+    box-shadow: 0 4px 12px rgba(133, 76, 230, 0.3);
+  }
+  
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -116,6 +135,11 @@ const SkillItem = styled.div`
 const SkillImage = styled.img`
   width: 24px;
   height: 24px;
+  transition: transform 0.3s ease;
+  
+  ${SkillItem}:hover & {
+    transform: scale(1.2) rotate(5deg);
+  }
 `
 
 
@@ -127,12 +151,12 @@ const Skills = () => {
         <Desc>Here are some of my skills on which I have been working on for the past 4 years.
         </Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill>
+          {skills.map((skill, index) => (
+            <Skill key={index}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
+                {skill.skills.map((item, itemIndex) => (
+                  <SkillItem key={itemIndex}>
                     <SkillImage src={item.image}/>
                     {item.name}
                   </SkillItem>
