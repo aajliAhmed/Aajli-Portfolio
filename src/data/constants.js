@@ -308,7 +308,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "Ministre.jpeg",
+    img: "Ministre2.png",
     school: "Imam Malik high school",
     date: "Septembre 2016 - juin 2017",
     desc: "I completed my baccalaureate education in Science with Physics.",
