@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 AAJLI Ahmed
+          &copy; 2025 AAJLI Ahmed
         </Copyright>
 
       </FooterWrapper>
