@@ -313,7 +313,7 @@ export const education = [
   {
     id: 0,
     img: "tanger.png",
-    school: "Faculty of Science and Technology in Tangier",
+    school: "EMSI",
     date: "Oct 2023 ",
     desc: "I'm currently a software engineering student",
     degree: "Software Engineering and Intelligent Systems",
