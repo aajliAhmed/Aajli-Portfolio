@@ -217,6 +217,15 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    image: "arkx.jpeg",
+    role: "AI Software engineer",
+    company: "ARKX Solutions",
+    date: "Août 2025 - Aujourd'hui",
+    desc: "I am currently pursuing an intensive Artificial Intelligence Engineering training with ARKx Solutions under the Jobintech program, focused on designing and deploying innovative AI solutions.",
+    skills: ["LLM", "Software Engineering", "Machine Learning", "Deep Learning", "intelligent artificial"],
+  },
+  {
+    id: 1,
     image: "Digitalia.jpeg",
     role: "Full Stack engineer",
     company: "Digitalia Solutions",
@@ -225,7 +234,7 @@ export const experiences = [
     skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git"],
   },
   {
-    id: 1,
+    id: 2,
     image: "Magnisfy-image.png",
     role: "Full Stack engineer",
     company: "Magnisfy Africa",
@@ -234,7 +243,7 @@ export const experiences = [
     skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git"],
   },
   {
-    id: 2,
+    id: 3,
     image: "Sakane-image.jpg",
     role: "Full Stack engineer",
     company: "Sakane Advisor",
@@ -243,7 +252,7 @@ export const experiences = [
     skills: ["PHP (Symfony)", "HTML", "CSS","MySQL","Git"],
   },
   {
-    id: 3,
+    id: 4,
     image: "orange.png",
     role: "automation tester",
     company: "Orange Digital Center",
