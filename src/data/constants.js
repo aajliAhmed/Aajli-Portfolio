@@ -223,7 +223,7 @@ export const experiences = [
     company: "Atos",
     date: "Novembre 2025 - Aujourd'hui",
     desc: "",
-    skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git"],
+    skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git","Kafka"],
   },
   {
     
