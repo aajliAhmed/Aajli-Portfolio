@@ -216,7 +216,18 @@ export const skills = [
 
 export const experiences = [
   {
+    
     id: 0,
+    image: "atos.jpeg",
+    role: "Software engineer",
+    company: "Atos",
+    date: "Novembre 2025 - Aujourd'hui",
+    desc: "",
+    skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git"],
+  },
+  {
+    
+    id: 1,
     image: "arkx.jpeg",
     role: "AI Software engineer",
     company: "ARKX Solutions",
@@ -225,7 +236,7 @@ export const experiences = [
     skills: ["LLM", "Software Engineering", "Machine Learning", "Deep Learning", "intelligent artificial"],
   },
   {
-    id: 1,
+    id: 2,
     image: "Digitalia.jpeg",
     role: "Full Stack engineer",
     company: "Digitalia Solutions",
@@ -234,7 +245,7 @@ export const experiences = [
     skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git"],
   },
   {
-    id: 2,
+    id: 3,
     image: "Magnisfy-image.png",
     role: "Full Stack engineer",
     company: "Magnisfy Africa",
@@ -243,7 +254,7 @@ export const experiences = [
     skills: ["JAVA", "Spring Boot", "Angular", "MySQL", "Git"],
   },
   {
-    id: 3,
+    id: 4,
     image: "Sakane-image.jpg",
     role: "Full Stack engineer",
     company: "Sakane Advisor",
@@ -252,7 +263,7 @@ export const experiences = [
     skills: ["PHP (Symfony)", "HTML", "CSS","MySQL","Git"],
   },
   {
-    id: 4,
+    id: 5,
     image: "orange.png",
     role: "automation tester",
     company: "Orange Digital Center",
