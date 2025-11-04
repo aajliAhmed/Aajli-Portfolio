@@ -218,7 +218,7 @@ export const experiences = [
   {
     
     id: 0,
-    image: "atos.jpeg",
+    image: "atos.png",
     role: "Software engineer",
     company: "Atos",
     date: "Novembre 2025 - Aujourd'hui",
