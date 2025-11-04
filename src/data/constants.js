@@ -231,7 +231,7 @@ export const experiences = [
     image: "arkx.jpeg",
     role: "AI Software engineer",
     company: "ARKX Solutions",
-    date: "Août 2025 - Aujourd'hui",
+    date: "Août 2025 - novembre 2025",
     desc: "I am currently pursuing an intensive Artificial Intelligence Engineering training with ARKx Solutions under the Jobintech program, focused on designing and deploying innovative AI solutions.",
     skills: ["LLM", "Software Engineering", "Machine Learning", "Deep Learning", "intelligent artificial"],
   },
